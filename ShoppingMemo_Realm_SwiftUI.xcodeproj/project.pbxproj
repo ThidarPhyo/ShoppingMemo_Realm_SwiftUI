@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52D346A92A63E6B000ECAA1F /* RealmMigrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D346A82A63E6B000ECAA1F /* RealmMigrator.swift */; };
 		7F698E522A631102006ABE4C /* ShoppingMemo_Realm_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F698E512A631102006ABE4C /* ShoppingMemo_Realm_SwiftUIApp.swift */; };
 		7F698E542A631102006ABE4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F698E532A631102006ABE4C /* ContentView.swift */; };
 		7F698E562A631105006ABE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F698E552A631105006ABE4C /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52D346A82A63E6B000ECAA1F /* RealmMigrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmMigrator.swift; sourceTree = "<group>"; };
 		7F698E4E2A631102006ABE4C /* ShoppingMemo_Realm_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingMemo_Realm_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F698E512A631102006ABE4C /* ShoppingMemo_Realm_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMemo_Realm_SwiftUIApp.swift; sourceTree = "<group>"; };
 		7F698E532A631102006ABE4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				7F698E532A631102006ABE4C /* ContentView.swift */,
 				7F698E5F2A631138006ABE4C /* AddShoppingListItemView.swift */,
 				7F698E612A631157006ABE4C /* AddShoppingListView.swift */,
+				52D346A82A63E6B000ECAA1F /* RealmMigrator.swift */,
 				7F698E672A6311AE006ABE4C /* ShoppingListItemsView.swift */,
 				7F698E552A631105006ABE4C /* Assets.xcassets */,
 				7F698E572A631105006ABE4C /* Preview Content */,
@@ -184,6 +187,7 @@
 			files = (
 				7F698E6A2A6311D2006ABE4C /* ShoppingItemCell.swift in Sources */,
 				7F698E682A6311AE006ABE4C /* ShoppingListItemsView.swift in Sources */,
+				52D346A92A63E6B000ECAA1F /* RealmMigrator.swift in Sources */,
 				7F698E622A631157006ABE4C /* AddShoppingListView.swift in Sources */,
 				7F698E662A63118F006ABE4C /* ShoppingList.swift in Sources */,
 				7F698E602A631138006ABE4C /* AddShoppingListItemView.swift in Sources */,

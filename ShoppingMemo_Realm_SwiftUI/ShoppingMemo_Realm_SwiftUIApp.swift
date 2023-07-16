@@ -12,6 +12,7 @@ struct ShoppingMemo_Realm_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.realmConfiguration, RealmMigrator.configuration)
         }
     }
 }
